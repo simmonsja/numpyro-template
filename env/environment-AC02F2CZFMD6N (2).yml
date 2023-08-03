@@ -1,0 +1,14 @@
+name: numpyro
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - ipywidgets
+  - scikit-learn
+  - pandas
+  - seaborn
+  - tqdm
+  - pip:
+    - numpyro
+    - arviz
