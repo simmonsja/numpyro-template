@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM ubuntu:18.04
+FROM ubuntu:22.04
 # create a directory to mount our data volume
 RUN mkdir /project
 #Install ubuntu libraires and packages
